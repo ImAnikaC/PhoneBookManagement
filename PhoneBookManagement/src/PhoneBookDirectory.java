@@ -54,8 +54,6 @@ public class PhoneBookDirectory {
 	}
 	
 	//sorting phonebook entries by id 
-	//void bc it
-	
 	public void SortbyID() {
 		for (int i = 0; i<array.length; i++) {
 			

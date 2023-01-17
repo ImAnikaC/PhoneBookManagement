@@ -1,6 +1,4 @@
 
-//Nuzhat Bushra and Anika Chowdhury
-
 public interface AdminInterface {
 	public void addEntry(PhoneBookEntry entry);
 	public void editEntry(String f, String l);

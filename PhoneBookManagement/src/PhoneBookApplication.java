@@ -10,8 +10,7 @@ public class PhoneBookApplication {
 		
 		PhoneBookAdmin admin = new PhoneBookAdmin();
 		NormalUser normal = new NormalUser();
-		//we assumed there is two separate files for admin and normal user with their informations and
-		//we have to compare the user input with the each of the admin and normal user infos to see what the input matches with
+		//compare the user input with the each of the admin and normal user infos to see what the input matches with
 		File Afile = new File("AdminFile.txt"); //file location in my computer
 		
 		Scanner scan = new Scanner(Afile);
@@ -22,7 +21,6 @@ public class PhoneBookApplication {
 			ainfo += scan.nextLine();
 		}
 		
-		//System.out.println(ainfo);
 		String [] AdminArray = ainfo.split(",");
 		
 		
@@ -37,7 +35,7 @@ public class PhoneBookApplication {
 		}
 		String [] NormalArray = Ninfo.split(",");
 		
-		//we assumed login only requires username and password
+		// only requires username and password
 		System.out.println("Enter username:");
 		String username = input.next();
 		
